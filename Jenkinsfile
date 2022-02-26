@@ -20,13 +20,13 @@ pipeline {
 
     stage('Paso2') {
       steps {
-        build 'JOB3'
+        build 'TomcatPruebas'
       }
     }
 
     stage('Paso3') {
       steps {
-        build 'TomcatPruebas'
+        build 'JOB3'
       }
     }
 
