@@ -24,5 +24,11 @@ pipeline {
       }
     }
 
+    stage('Paso3') {
+      steps {
+        build 'TomcatPruebas'
+      }
+    }
+
   }
 }
